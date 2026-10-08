@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
-  <img src="./assets/banner.svg" width="100%" alt="undemo — Build with curiosity." />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg?v=2" />
+  <img src="./assets/banner.svg?v=2" width="100%" alt="undemo — Small steps. Relentless progress." />
 </picture>
 
 <p align="center">

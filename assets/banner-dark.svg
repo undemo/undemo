@@ -1,35 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">undemo — Build with curiosity</title>
-  <desc id="desc">Blue and purple orbital artwork, with the words AI, algorithms and creative code.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">undemo — Small steps. Relentless progress.</title>
+  <desc id="desc">A charcoal and amber pixel poster. A small square climbs five steps, one step at a time.</desc>
+  <style>
+    .runner { animation: climb 10s step-end infinite; }
+    @keyframes climb {
+      0%, 14%, 100% { transform: translate(0px, 0px); }
+      15%, 29% { transform: translate(72px, -40px); }
+      30%, 44% { transform: translate(144px, -80px); }
+      45%, 59% { transform: translate(216px, -120px); }
+      60%, 99% { transform: translate(288px, -160px); }
+    }
+    @media (prefers-reduced-motion: reduce) { .runner { animation: none; } }
+  </style>
   <defs>
-    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#252859"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#70a5fd"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
-    <radialGradient id="planet"><stop stop-color="#70a5fd" stop-opacity=".6"/><stop offset="1" stop-color="#bb9af7" stop-opacity=".08"/></radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#596782" stroke-opacity=".12"/></pattern>
-    <clipPath id="frame"><rect width="1200" height="320" rx="20"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="360" rx="8"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="320" fill="url(#background)"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-    <circle cx="1015" cy="150" r="155" fill="url(#planet)"/>
-    <g fill="none" stroke="url(#accent)">
-      <ellipse cx="995" cy="156" rx="170" ry="62" transform="rotate(-32 995 156)" stroke-opacity=".55"/>
-      <ellipse cx="995" cy="156" rx="170" ry="62" transform="rotate(32 995 156)" stroke-opacity=".35"/>
-      <circle cx="995" cy="156" r="112" stroke-opacity=".2"/>
-      <circle cx="995" cy="156" r="77" stroke-opacity=".3"/>
+    <rect width="1200" height="360" fill="#0c0d0f"/>
+    <path d="M708 34v292" stroke="#f3ede2" stroke-opacity=".12"/>
+    <text x="53" y="170" fill="#f3ede2" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="150" font-weight="900" letter-spacing="-9">undemo</text>
+    <text x="61" y="237" fill="#f3ede2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="34" font-weight="500" letter-spacing="-1">Small steps.</text>
+    <text x="61" y="285" fill="#ffb454" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="34" font-weight="500" letter-spacing="-1">Relentless progress.</text>
+    <rect x="61" y="44" width="24" height="7" fill="#ffb454"/>
+    <rect x="89" y="44" width="7" height="7" fill="#ffb454" opacity=".4"/>
+    <path d="M760 322h344" stroke="#f3ede2" stroke-opacity=".15" stroke-dasharray="2 8"/>
+    <g opacity="0.28"><path d="M760 278h56v12h-8v12h-48z" fill="#ffb454"/><path d="M760 302h48" stroke="#ffb454" stroke-width="2"/></g>
+    <g opacity="0.46"><path d="M832 238h56v12h-8v12h-48z" fill="#ffb454"/><path d="M832 262h48" stroke="#ffb454" stroke-width="2"/></g>
+    <g opacity="0.64"><path d="M904 198h56v12h-8v12h-48z" fill="#ffb454"/><path d="M904 222h48" stroke="#ffb454" stroke-width="2"/></g>
+    <g opacity="0.8200000000000001"><path d="M976 158h56v12h-8v12h-48z" fill="#ffb454"/><path d="M976 182h48" stroke="#ffb454" stroke-width="2"/></g>
+    <g opacity="1"><path d="M1048 118h56v12h-8v12h-48z" fill="#ffb454"/><path d="M1048 142h48" stroke="#ffb454" stroke-width="2"/></g>
+    <g class="runner" fill="#f3ede2">
+      <rect x="778" y="256" width="16" height="16"/>
+      <rect x="778" y="256" width="5" height="5" fill="#ffb454"/>
     </g>
-    <circle cx="857" cy="215" r="6" fill="#70a5fd"/>
-    <circle cx="1109" cy="88" r="5" fill="#bb9af7"/>
-    <circle cx="1017" cy="266" r="4" fill="#70a5fd"/>
-    <path d="M775 54v14m-7-7h14M1162 244v14m-7-7h14" stroke="#bb9af7" stroke-width="2"/>
-    <text x="995" y="180" text-anchor="middle" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="67" font-weight="700">&lt;/&gt;</text>
-    <rect x="62" y="40" width="370" height="33" rx="16.5" fill="#0d1117" stroke="#596782" stroke-opacity=".4"/>
-    <circle cx="80" cy="56.5" r="4" fill="#70a5fd"/>
-    <text x="97" y="62" fill="#9da7c0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.3">AI / ALGORITHMS / CREATIVE CODE</text>
-    <text x="60" y="183" fill="#f0f6fc" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="104" font-weight="800" letter-spacing="-5">undemo<tspan fill="#bb9af7">.</tspan></text>
-    <text x="65" y="225" fill="#9da7c0" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="25" letter-spacing=".2">Build with curiosity.</text>
-    <rect x="65" y="265" width="54" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="134" y="271" fill="#9da7c0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">KEEP LEARNING. KEEP BUILDING.</text>
-    <rect x=".5" y=".5" width="1199" height="319" rx="19.5" fill="none" stroke="#596782" stroke-opacity=".22"/>
+    <path d="M1060 59h48v48h-12V83l-35 35-9-9 35-35h-27z" fill="#ffb454"/>
+    <text x="760" y="52" fill="#f3ede2" fill-opacity=".48" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">ONE DAY. ONE STEP.</text>
+    <text x="1094" y="326" text-anchor="end" fill="#ffb454" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">+1</text>
   </g>
 </svg>
