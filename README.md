@@ -18,10 +18,10 @@
 
 | 项目 | 我在探索什么 | 技术 |
 | :--- | :--- | :--- |
-| 🧭 [LifePilot](https://github.com/undemo/lifepilot) | 把生活目标变成可验证、可协同、可恢复的时间线。 | Python · FastAPI · Next.js |
-| 🧠 [TAAC 2026](https://github.com/undemo/TAAC2026_best_experiment) | 转化率预测中的兴趣漂移、时间特征与缺失感知建模。 | Python · PyTorch |
-| 🛡️ [Defender](https://github.com/undemo/defender) | 模块化大模型防御：交互分析、风险监控与人工审核。 | FastAPI · Vue · TypeScript |
-| 🔥 [火会记得](https://github.com/undemo/fire-knows-you) | 暗黑奇幻战术实验：六边形地图、技能与灵魂契约。 | Godot · GDScript |
+| [LifePilot](https://github.com/undemo/lifepilot) | 把生活目标变成可验证、可协同、可恢复的时间线。 | Python · FastAPI · Next.js |
+| [TAAC 2026](https://github.com/undemo/TAAC2026_best_experiment) | 转化率预测中的兴趣漂移、时间特征与缺失感知建模。 | Python · PyTorch |
+| [PromptBastion](https://github.com/undemo/PromptBastion) | 大模型对话安全审查：输入筛选、回答自审与内容净化。 | Python · FastAPI · vLLM |
+| [火会记得](https://github.com/undemo/fire-knows-you) | 暗黑奇幻战术实验：六边形地图、技能与灵魂契约。 | Godot · GDScript |
 
 ### 技术栈
 
