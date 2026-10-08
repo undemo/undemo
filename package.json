@@ -1,0 +1,11 @@
+{
+  "name": "undemo-profile-art",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:banner": "node scripts/build-banner.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}

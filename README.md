@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-pixel-dark.svg" />
-  <img src="./assets/banner-pixel.svg" width="100%" alt="undemo — Small steps. Relentless progress." />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner-mole-v2.png" />
+  <img src="./assets/banner-mole-v2.gif" width="100%" alt="undemo 的像素鼹鼠冒险：出门挥刀、持枪射击、跳起头锤，再进入新门。Small steps. Relentless progress." />
 </picture>
 
 <p align="center">
